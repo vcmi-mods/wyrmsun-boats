@@ -1,0 +1,352 @@
+{
+	"core:boat" : {
+		"types" : {
+			"wyrmsunBoat_mapBattleshipH" : { 
+				"name" : "Battleship",
+				"layer" : "sail",
+				"onboardAssaultAllowed" : true,
+				"onboardVisitAllowed" : true,
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"bonuses" : [
+					{ "type" : "BONUS_DAMAGE_PERCENTAGE", "val": 20, "subtype" : "creature.ballista" }
+				],
+				"templates": {
+					"boat00" : {
+						"animation" : "boats/wyrmsun/mapBattleshipH",
+						"mask" : [ "VVV", "VAV" ] 
+					} 
+				}
+			},
+			
+			"wyrmsunBoat_mapDwarvenShip" : { 
+				"name" : "Ship",
+				"layer" : "sail",
+				"onboardAssaultAllowed" : true,
+				"onboardVisitAllowed" : true,
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"bonuses" : [
+					{ "type" : "GENERAL_DAMAGE_REDUCTION", "subtype" : 1, "val": 10}
+				],
+				"templates": {
+					"boat00" : {
+						"animation" : "boats/wyrmsun/mapDwarvenShip",
+						"mask" : [ "VVV", "VAV" ] 
+					}
+				}
+			},
+
+  			"wyrmsunBoat_mapElvenDestroyer" : { 
+				"name" : "Destroyer",
+				"layer" : "sail",
+				"onboardAssaultAllowed" : true,
+				"onboardVisitAllowed" : true,
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"bonuses" : [
+					{ "type" : "RANGED_RETALIATION"}
+				],
+				"templates": {
+					"boat00" : {
+						"animation" : "boats/wyrmsun/mapElvenDestroyer",
+						"mask" : [ "VVV", "VAV" ] 
+					}
+				}
+			},
+
+			"wyrmsunBoat_mapElvenTransport" : { 
+				"name" : "Transport",
+				"layer" : "sail",
+				"onboardAssaultAllowed" : true,
+				"onboardVisitAllowed" : true,
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"bonuses" : [
+					{ "type" : "MOVEMENT", "subtype" : 0, "val" : 500}
+				],
+				"templates": {
+					"boat00" : {
+						"animation" : "boats/wyrmsun/mapElvenTransport",
+						"mask" : [ "VVV", "VAV" ] 
+					}
+				}
+			},
+
+  			"wyrmsunBoat_mapHTransport" : { 
+				"name" : "Transport",
+				"layer" : "sail",
+				"onboardAssaultAllowed" : true,
+				"onboardVisitAllowed" : true,
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"bonuses" : [
+					{ "type" : "MOVEMENT", "subtype" : 0, "val" : 400}
+				],
+				"templates": {
+					"boat00" : {
+						"animation" : "boats/wyrmsun/mapHTransport",
+						"mask" : [ "VVV", "VAV" ] 
+					}
+				}
+			},
+
+  			"wyrmsunBoat_mapJuggernautH" : { 
+				"name" : "Juggernaut",
+				"layer" : "sail",
+				"onboardAssaultAllowed" : true,
+				"onboardVisitAllowed" : true,
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"bonuses" : [
+					{ "type" : "BONUS_DAMAGE_PERCENTAGE", "val": 50, "subtype" : "creature.ballista" }
+				],
+				"templates": {
+					"boat00" : {
+						"animation" : "boats/wyrmsun/mapJuggernautH",
+						"mask" : [ "VVV", "VAV" ] 
+					}
+				}
+			},
+
+  			"wyrmsunBoat_mapOrcEmptyTanker" : { 
+				"name" : "Tanker",
+				"layer" : "sail",
+				"onboardAssaultAllowed" : true,
+				"onboardVisitAllowed" : true,
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"bonuses" : [
+					{ "type" : "GENERATE_RESOURCE", "val": 1, "subtype" : "resource.mercury" }
+				],
+				"templates": {
+					"boat00" : {
+						"animation" : "boats/wyrmsun/mapOrcEmptyTanker",
+						"mask" : [ "VVV", "VAV" ] 
+					}
+				}
+			},
+
+  			"wyrmsunBoat_mapPenguinSubmarine1" : { 
+				"name" : "Penguin Submarine",
+				"layer" : "sail",
+				"onboardAssaultAllowed" : true,
+				"onboardVisitAllowed" : true,
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"bonuses" : [
+					{ "type" : "WHIRLPOOL_PROTECTION" }
+				],
+				"templates": {
+					"boat00" : {
+						"animation" : "boats/wyrmsun/mapPenguinSubmarine1",
+						"mask" : [ "VVV", "VAV" ] 
+					}
+				}
+			},
+
+  			"wyrmsunBoat_mapPenguinSubmarine2" : { 
+				"name" : "Penguin Submarine",
+				"layer" : "sail",
+				"onboardAssaultAllowed" : true,
+				"onboardVisitAllowed" : true,
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"bonuses" : [
+					{ "type" : "WHIRLPOOL_PROTECTION" }
+				],
+				"templates": {
+					"boat00" : {
+						"animation" : "boats/wyrmsun/mapPenguinSubmarine2",
+						"mask" : [ "VVV", "VAV" ] 
+					}
+				}
+			},
+
+  			"wyrmsunBoat_mapPenguinSubmarine3" : { 
+				"name" : "Penguin Submarine",
+				"layer" : "sail",
+				"onboardAssaultAllowed" : true,
+				"onboardVisitAllowed" : true,
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"bonuses" : [
+					{ "type" : "WHIRLPOOL_PROTECTION" }
+				],
+				"templates": {
+					"boat00" : {
+						"animation" : "boats/wyrmsun/mapPenguinSubmarine3",
+						"mask" : [ "VVV", "VAV" ] 
+					}
+				}
+			},
+  						 
+
+   			"wyrmsunBoat_mapShip2" : {  
+				"name" : "Ship",
+				"layer" : "sail",
+				"onboardAssaultAllowed" : true,
+				"onboardVisitAllowed" : true,
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"templates": {
+					"boat00" : {
+						"animation" : "boats/wyrmsun/mapShip2",
+						"mask" : [ "VVV", "VAV" ] 
+					}
+				}
+			},
+
+   			"wyrmsunBoat_mapShip4" : {  
+				"name" : "Ship",
+				"layer" : "sail",
+				"onboardAssaultAllowed" : true,
+				"onboardVisitAllowed" : true,
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"templates": {
+					"boat00" : {
+						"animation" : "boats/wyrmsun/mapShip4",
+						"mask" : [ "VVV", "VAV" ] 
+					}
+				}
+			},
+			
+    
+   			"wyrmsunBoat_mapShip5" : { 
+				"name" : "Ship", 
+				"layer" : "sail",
+				"onboardAssaultAllowed" : true,
+				"onboardVisitAllowed" : true,
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"templates": {
+					"boat00" : {
+						"animation" : "boats/wyrmsun/mapShip5",
+						"mask" : [ "VVV", "VAV" ] 
+					}
+				}
+			},
+						 			
+     
+   			"wyrmsunBoat_mapShipDwarf1" : {  
+				"name" : "Ship",
+				"layer" : "sail",
+				"onboardAssaultAllowed" : true,
+				"onboardVisitAllowed" : true,
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"templates": {
+					"boat00" : {
+						"animation" : "boats/wyrmsun/mapShipDwarf1",
+						"mask" : [ "VVV", "VAV" ] 
+					}
+				}
+			},
+	     
+   			"wyrmsunBoat_mapShipDwarf2" : {  
+				"name" : "Ship",
+				"layer" : "sail",
+				"onboardAssaultAllowed" : true,
+				"onboardVisitAllowed" : true,
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"templates": {
+					"boat00" : {
+						"animation" : "boats/wyrmsun/mapShipDwarf2",
+						"mask" : [ "VVV", "VAV" ] 
+					}
+				}
+			},
+						 			
+    		"wyrmsunBoat_mapTakerHE" : {
+				"name" : "Tanker",
+				"layer" : "sail",
+				"onboardAssaultAllowed" : true,
+				"onboardVisitAllowed" : true,
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"bonuses" : [
+					{ "type" : "GENERATE_RESOURCE", "val": 1, "subtype" : "resource.mercury" }
+				],
+				"templates": {
+					"boat00" : {
+						"animation" : "boats/wyrmsun/mapTakerHE",
+						"mask" : [ "VVV", "VAV" ] 
+					}
+				}
+			},
+						 			
+      		"wyrmsunBoat_mapTakerHF" : { 
+				"name" : "Tanker",
+				"layer" : "sail",
+				"onboardAssaultAllowed" : true,
+				"onboardVisitAllowed" : true,
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"bonuses" : [
+					{ "type" : "GENERATE_RESOURCE", "val": 1, "subtype" : "resource.mercury" }
+				],
+				"templates": {
+					"boat00" : {
+						"animation" : "boats/wyrmsun/mapTakerHF",
+						"mask" : [ "VVV", "VAV" ] 
+					}
+				}
+			},
+						 			
+       		"wyrmsunBoat_mapBaloon" : { 
+				"name" : "Baloon",
+				"layer" : "air",
+				"onboardAssaultAllowed" : true,
+				"onboardVisitAllowed" : true,
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"bonuses" : [
+					{ "type" : "FLYING", "val": 1},
+					{ "type" : "SIGHT_RADIUS", "val": 2}
+			
+				],
+				"templates": {
+					"boat00" : {
+						"animation" : "boats/wyrmsun/mapBaloon",
+						"mask" : [ "VVV", "VAV" ] 
+					}
+				}
+			},
+						 			
+			"wyrmsunBoat_mapCaravan1" : { 
+				"name" : "Wagon",
+				"layer" : "land",
+				"onboardAssaultAllowed" : true,
+				"onboardVisitAllowed" : true,
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"bonuses" : [
+					{ "type" : "MOVEMENT", "subtype" : 1, "val": 600}
+				],
+				"templates": {
+					"boat00" : {
+						"animation" : "boats/wyrmsun/mapCaravan1",
+						"mask" : [ "VVV", "VAV" ] 
+					}
+				}
+			},
+						 			
+        	"wyrmsunBoat_mapCaravan2" : { 
+				"name" : "Wagon",
+				"layer" : "land",
+				"onboardAssaultAllowed" : true,
+				"onboardVisitAllowed" : true,
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"bonuses" : [
+					{ "type" : "MOVEMENT", "subtype" : 1, "val": 600}
+				],
+				"templates": {
+					"boat00" : {
+						"animation" : "boats/wyrmsun/mapCaravan2",
+						"mask" : [ "VVV", "VAV" ] 
+					}
+				}
+			},				 				 								 			
+  			
+         	"wyrmsunBoat_mapWagon" : { 
+				"name" : "Wagon",
+				"layer" : "land",
+				"onboardAssaultAllowed" : true,
+				"onboardVisitAllowed" : true,
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"bonuses" : [
+					{ "type" : "MOVEMENT", "subtype" : 1, "val": 600}
+				],
+				"templates": {
+					"boat00" : {
+						"animation" : "boats/wyrmsun/mapWagon",
+						"mask" : [ "VVV", "VAV" ] 
+					}
+				}
+			}			 				 								 			
+		}
+	}
+}
