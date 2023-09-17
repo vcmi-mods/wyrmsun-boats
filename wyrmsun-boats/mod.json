@@ -4,7 +4,8 @@
 	"version":"0.0.1",
 	"author":"Wyrmsun Developers",
 	"contact":"none",
-	//GPL 2.0 license - https://github.com/Andrettin/Wyrmsun/blob/master/license.txt
+	"licenseName" : "GPL 2.0 license",
+	"licenseURL" : "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
 	"modType":"Objects",
 	"compatibility" :
 	{
