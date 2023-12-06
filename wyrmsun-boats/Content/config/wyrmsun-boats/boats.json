@@ -25,7 +25,7 @@
 				"onboardVisitAllowed" : true,
 				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
 				"bonuses" : [
-					{ "type" : "GENERAL_DAMAGE_REDUCTION", "subtype" : 1, "val": 10}
+					{ "type" : "GENERAL_DAMAGE_REDUCTION", "subtype" : "damageTypeRanged", "val": 10}
 				],
 				"templates": {
 					"boat00" : {
@@ -59,7 +59,7 @@
 				"onboardVisitAllowed" : true,
 				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
 				"bonuses" : [
-					{ "type" : "MOVEMENT", "subtype" : 0, "val" : 500}
+					{ "type" : "MOVEMENT", "subtype" : "heroMovementSea", "val" : 500}
 				],
 				"templates": {
 					"boat00" : {
@@ -76,7 +76,7 @@
 				"onboardVisitAllowed" : true,
 				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
 				"bonuses" : [
-					{ "type" : "MOVEMENT", "subtype" : 0, "val" : 400}
+					{ "type" : "MOVEMENT", "subtype" : "heroMovementSea", "val" : 400}
 				],
 				"templates": {
 					"boat00" : {
@@ -304,7 +304,7 @@
 				"onboardVisitAllowed" : true,
 				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
 				"bonuses" : [
-					{ "type" : "MOVEMENT", "subtype" : 1, "val": 600}
+					{ "type" : "MOVEMENT", "subtype" : "heroMovementLand", "val": 600}
 				],
 				"templates": {
 					"boat00" : {
@@ -321,7 +321,7 @@
 				"onboardVisitAllowed" : true,
 				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
 				"bonuses" : [
-					{ "type" : "MOVEMENT", "subtype" : 1, "val": 600}
+					{ "type" : "MOVEMENT", "subtype" : "heroMovementLand", "val": 600}
 				],
 				"templates": {
 					"boat00" : {
@@ -338,7 +338,7 @@
 				"onboardVisitAllowed" : true,
 				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
 				"bonuses" : [
-					{ "type" : "MOVEMENT", "subtype" : 1, "val": 600}
+					{ "type" : "MOVEMENT", "subtype" : "heroMovementLand", "val": 600}
 				],
 				"templates": {
 					"boat00" : {
