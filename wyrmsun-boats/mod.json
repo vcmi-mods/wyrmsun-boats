@@ -16,6 +16,13 @@
 		"0.0.1"   : [ "Initial release" ],
 		"0.0.2"   : [ "Update to vcmi-1.4 format" ]
 	},
+	"chinese" : {
+		"name" : "Wyrmsun船只与其他地图物体",
+		"description" : "包含21种新船只，这些船只可用于自定义地图或加到任何种族（参见HotA mod）。",
+		"translations" : [
+			"translation/wyrmsun-boats/chinese.json"
+		]
+	},
 	"objects":
 	[
 		"config/wyrmsun-boats/boats.json"
