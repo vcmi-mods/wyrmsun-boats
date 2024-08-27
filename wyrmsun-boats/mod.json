@@ -1,7 +1,7 @@
 {
 	"name" : "Wyrmsun Boats & Other For Maps",
 	"description" : "This is base of 21 configured boats that can be used in custom maps or attached to any faction (see HotA mod for reference)",
-	"version":"0.0.2",
+	"version":"0.0.3",
 	"author":"Wyrmsun Developers",
 	"contact":"none",
 	"licenseName" : "GPL 2.0 license",
@@ -14,13 +14,21 @@
 	"changelog" :
     {
 		"0.0.1"   : [ "Initial release" ],
-		"0.0.2"   : [ "Update to vcmi-1.4 format" ]
+		"0.0.2"   : [ "Update to vcmi-1.4 format" ],
+		"0.0.3"   : [ "Russian translation by Anton Sergeew" ]
 	},
 	"chinese" : {
 		"name" : "船只与其他地图物体（Wyrmsun）",
 		"description" : "Wyrmsun的船只模组包，包含21种新船只和新的地图物体，这些船只可用于自定义地图或加到任何种族（参见HotA mod）。",
 		"translations" : [
 			"translation/wyrmsun-boats/chinese.json"
+		]
+	},
+	"russian" : {
+		"name" : "New Boats",
+		"description" : "Wyrmsun(HotA mod）。",
+		"translations" : [
+			"translation/wyrmsun-boats/russian.json"
 		]
 	},
 	"objects":
