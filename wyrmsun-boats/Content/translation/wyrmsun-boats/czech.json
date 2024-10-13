@@ -1,0 +1,23 @@
+{
+	"object.wyrmsun-boats.boat.wyrmsunBoat_mapBattleshipH.name": "Válečná loď",
+	"object.wyrmsun-boats.boat.wyrmsunBoat_mapDwarvenShip.name": "Loď",
+	"object.wyrmsun-boats.boat.wyrmsunBoat_mapElvenDestroyer.name": "Torpédoborec",
+	"object.wyrmsun-boats.boat.wyrmsunBoat_mapElvenTransport.name": "Transportní loď",
+	"object.wyrmsun-boats.boat.wyrmsunBoat_mapHTransport.name": "Transportní loď",
+	"object.wyrmsun-boats.boat.wyrmsunBoat_mapJuggernautH.name": "Těžká loď",
+	"object.wyrmsun-boats.boat.wyrmsunBoat_mapOrcEmptyTanker.name": "Tanker",
+	"object.wyrmsun-boats.boat.wyrmsunBoat_mapPenguinSubmarine1.name": "Ponorka",
+	"object.wyrmsun-boats.boat.wyrmsunBoat_mapPenguinSubmarine2.name": "Ponorka",
+	"object.wyrmsun-boats.boat.wyrmsunBoat_mapPenguinSubmarine3.name": "Ponorka",
+	"object.wyrmsun-boats.boat.wyrmsunBoat_mapShip2.name": "Loď",
+	"object.wyrmsun-boats.boat.wyrmsunBoat_mapShip4.name": "Loď",
+	"object.wyrmsun-boats.boat.wyrmsunBoat_mapShip5.name": "Loď",
+	"object.wyrmsun-boats.boat.wyrmsunBoat_mapShipDwarf1.name": "Trpasličí loď",
+	"object.wyrmsun-boats.boat.wyrmsunBoat_mapShipDwarf2.name": "Trpasličí loď",
+	"object.wyrmsun-boats.boat.wyrmsunBoat_mapTakerHE.name": "Tanker",
+	"object.wyrmsun-boats.boat.wyrmsunBoat_mapTakerHF.name": "Tanker",
+	"object.wyrmsun-boats.boat.wyrmsunBoat_mapBaloon.name": "Horkovzdušný balón",
+	"object.wyrmsun-boats.boat.wyrmsunBoat_mapCaravan1.name": "Karavana",
+	"object.wyrmsun-boats.boat.wyrmsunBoat_mapCaravan2.name": "Karavana",
+	"object.wyrmsun-boats.boat.wyrmsunBoat_mapWagon.name": "Vagón"
+}
